@@ -4,6 +4,10 @@ int main(){
     system("cls");
     int num;
     int factorial=1;
+
+
+
+    
     int i;
     cout<<"enter number to find factorial  "<<endl;
     cin>>num;
