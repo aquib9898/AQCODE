@@ -5,16 +5,17 @@
     h2 {color:rgb(223, 103, 227); font-size:30px; font-family:Verdana, Geneva, Tahoma, sans-serif;}
     P:nth-of-type(1) {color:blue; font-size:56px;}
     P:nth-of-type(2) {color:rgb(172, 46, 11); font-size:20px;}
-    table {border-collapse:collapsed; border: 2px solid black;}
-    td {border-collapse:collapsed; border: 1px solid blue;}
-
+    table {border-collapse:seperate; border: 2px solid black;padding:10px}
+    img {height:245px; width:auto}
+    .form-container {border: 2px solid black; border-radius:2px; height 1000px;}
+    .td2 {padding:5px;border-collapse:separate; border:1px solid blue;}
 </style>
 <body>
     <h1>heading 1 heading 1</h1>
     <h2>heading 2 heading 2</h2>
     <br>
     <br>
-    <p>loren ipsum something something</p>
+    <p>loren ipsum something</p>
     <br>
     <p>whotf is loren ipsum lol</p>
     <ul type="square">
@@ -30,29 +31,134 @@
 
     <table>
         <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
+            <td class="td1">1</td>
+            <td class="td1">2</td>
+            <td class="td1">3</td>
 
         </tr>
         <tr>
-            <td>4</td>
-            <td>5</td>
-            <td>6</td>
+            <td class="td1">4</td>
+            <td class="td1">5</td>
+            <td class="td1">6</td>
             
         </tr>
         <tr>
-            <td>7</td>
-            <td>8</td>
-            <td>9</td>
+            <td class="td1">7</td>
+            <td class="td1">8</td>
+            <td class="td1">9</td>
 
         </tr>
         <tr>
-            <td>10</td>
-            <td>11</td>
-            <td>12</td>
+            <td class="td1">10</td>
+            <td class="td1">11</td>
+            <td class="td1">12</td>
 
         </tr>
     </table>
+
+    <div>
+<p>making the following table</p>
+<br>
+<img src="table.png"
+
+<br>
+<br>
+<br>
+
+<table style="border:1px solid black;border-collapse:seperate;">
+        <th>country</th> <th>state</th> <th>city</th> <th>street</th> <th>male</th> <th>female</th> <th>others</th>
+    </tr>
+    <tr>
+        <td rowspan="8" class="td2">1</td>
+        <td rowspan="4" class="td2">kerala</td>
+        <td rowspan="2" class="td2">coachin</td>
+        <td class="td2">new street</td>
+        <td class="td2">500</td>
+        <td class="td2">600</td>
+        <td class="td2">6</td>
+    </tr>
+    <tr>
+        <td class="td2">main street</td>
+        <td class="td2">300</td>
+        <td class="td2">288</td>
+        <td class="td2">2</td>
+    </tr>
+    <tr>
+        <td rowspan="2" class="td2">Trivandrum</td>
+        <td class="td2">Guru streetr</td>
+        <td class="td2">500</td>
+        <td class="td2">600</td>
+        <td class="td2">10</td>
+    </tr>
+    <tr>
+        <td class="td2">TVK street</td>
+        <td class="td2"> 500 </td>
+        <td class="td2">600</td>
+        <td class="td2">2</td>
+    </tr>
+    <tr>
+        <td rowspan="4" class="td2">Maharashtra</td>
+        <td rowspan="2" class="td2">Mumbai</td>
+        <td class="td2">krisha street</td>
+        <td class="td2">700</td>
+        <td class="td2">850</td>
+        <td class="td2">1</td>
+    </tr>
+    <tr>
+        <td class="td2">main street</td>
+        <td class="td2">500</td>
+        <td class="td2">600</td>
+        <td class="td2">2</td>
+    </tr>
+    <tr>
+        <td rowspan="2" class="td2">Surath</td>
+        <td class="td2"> new street</td>
+        <td class="td2">500</td>
+        <td class="td2">600</td>
+        <td class="td2">4</td>
+    </tr>
+    <tr>
+        <td class="td2">billa street</td>
+        <td class="td2">500</td>
+        <td class="td2">600</td>
+        <td class="td2">2</td>
+    </tr>
+    <tr>
+        <td rowspan="2" class="td2">2</td>
+        <td rowspan="2" class="td2">Alaska</td>
+        <td rowspan="2" class="td2">AKA Central</td>
+        <td class="td2">New street</td>
+        <td class="td2">200</td>
+        <td class="td2">210</td>
+        <td class="td2">2</td>
+    </tr>
+    <tr>
+        <td class="td2">Cross Street</td>
+        <td class="td2">1000</td>
+        <td class="td2">1050</td>
+        <td class="td2">10</td>
+    </tr>
+
+    
+</table>
+
+    </div>
+    <br>
+    <br>
+
+    <p style="font-size: 20px; color: blue;"> time for some form ehh?</p>
+    <br>
+    <br>
+    <div>
+    <form>
+        <div class="form-container">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" required style="margin-right: 100px;">
+        
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" required>
+        </div>
+    </form>
+    </div>
 </body>
 </html>
