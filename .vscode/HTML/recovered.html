@@ -7,7 +7,7 @@
     P:nth-of-type(2) {color:rgb(172, 46, 11); font-size:20px;}
     table {border-collapse:seperate; border: 2px solid black;padding:10px}
     img {height:245px; width:auto}
-    .form-container {border: 2px solid black; border-radius:2px; height 1000px;}
+    .form-container {border: 2px solid black; border-radius:2px;}
     .td2 {padding:5px;border-collapse:separate; border:1px solid blue;}
 </style>
 <body>
@@ -59,7 +59,7 @@
     <div>
 <p>making the following table</p>
 <br>
-<img src="table.png"
+<img src="table.png">
 
 <br>
 <br>
@@ -152,11 +152,91 @@
     <div>
     <form>
         <div class="form-container">
+            <p id="form-title">Form</p>
+            <br><br>
+            <table style="width: 500px;">
+            <tr>
+            <td rowspan="2">
             <label for="first-name">First Name:</label>
-            <input type="text" id="first-name" name="first-name" required style="margin-right: 100px;">
+            <input type="text" id="first-name" name="first-name" style="margin-right: 100px;">
         
             <label for="last-name">Last Name:</label>
             <input type="text" id="last-name" name="last-name" required>
+            <br>
+            <br>
+            <label>Enter Email address</label>
+            <input type="text" placeholder="name@domain.com">
+            </td>
+            </tr>
+            <label>Select Gender</label>
+            <select>
+                <option value="" disabled selected>select option</option>
+                <option value="male">male</option>
+                <option value="female">Female</option>
+                <option value="others">Others</option>
+            </select>
+            <br>
+            <br>
+
+            <label>Date Of Birth</label>
+            <input type="date">
+            <br>
+            <br>
+
+            <label>education level</label>
+            <br><br>
+            <label>
+            <input type="radio" name="education level" value="high school pass">
+            High school pass
+            </label>
+            <br>
+
+            <label>
+                <input type="radio" name="education level" value="Graduate">
+                Graduate
+             </label>
+             <br>
+
+            <label>
+                <input type="radio" name="education level" value="Post graduate">
+                    Post graduate
+            </label>
+            <br>
+             <label>
+                 <input type="radio" name="education level" value="PHD">
+                        PHD
+             </label>
+            
+            
+                <label>
+                    select programming languages you know
+                </label>
+                <br>
+                <label><input type="checkbox" name="languages" value="HTML">
+                    HTML
+                </label>
+                <br>
+                <label><input type="checkbox" name="languages" value="CSS">
+                    CSS
+                </label>
+                <br>
+                <label><input type="checkbox" name="languages" value="Javascript">
+                    Javascript
+                </label>
+                <br>
+                <label><input type="checkbox" name="languages" value="ReactJS">
+                    ReactJS
+                </label>
+                <br>
+                <label><input type="checkbox" name="languages" value="C">
+                    C
+                </label>
+                    <br>
+                <label><input type="checkbox" name="languages" value="C++">
+                    C++
+                </label>
+            </table>
+            </div>
         </div>
     </form>
     </div>
