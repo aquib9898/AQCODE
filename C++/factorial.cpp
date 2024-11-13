@@ -4,7 +4,7 @@ int main(){
     system("cls");
     int num;
     int factorial=1;
-    cout<<"enter number to find factorial "<<endl;
+    cout<<"enter  number to find factorial "<<endl;
     cin>>num;
     int i=1;
     while(i<=num){factorial=factorial*i;
