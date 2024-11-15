@@ -4,7 +4,7 @@ int WinMain(){
     cout<<"enter first number "<<endl;
     int a;
     cin>>a;
-    cout<<"enter second number "<<endl;
+    cout<<"enter second number     "<<endl;
     int b;
     string check;
     cin>>b;
