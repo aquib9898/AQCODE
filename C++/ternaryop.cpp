@@ -10,7 +10,7 @@ int WinMain(){
     cin>>b;
 
 
-    a==b? check = "both numbers are equal" : check = "both numbers are not equal";
+    a==b?  check = "both numbers are equal" : check = "both numbers are not equal";
 
     cout<<check;
 
