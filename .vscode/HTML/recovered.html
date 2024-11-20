@@ -5,10 +5,11 @@
     h2 {color:rgb(223, 103, 227); font-size:30px; font-family:Verdana, Geneva, Tahoma, sans-serif;}
     P:nth-of-type(1) {color:blue; font-size:56px;}
     P:nth-of-type(2) {color:rgb(172, 46, 11); font-size:20px;}
-    table {border-collapse:seperate; border: 2px solid black;padding:10px}
+    #table1 {border-collapse:seperate; border: 2px solid rgb(231, 220, 24);padding:10px}
     img {height:245px; width:auto}
     .form-container {border: 2px solid black; border-radius:2px;}
     .td2 {padding:5px;border-collapse:separate; border:1px solid blue;}
+    .td1{border-collapse:seperate; border: solid black 2px; padding:5px;}
 </style>
 <body>
     <h1>heading 1 heading 1</h1>
@@ -29,7 +30,7 @@
         <li>item 3</li>
     </ol>
 
-    <table>
+    <table id="table1">
         <tr>
             <td class="td1">1</td>
             <td class="td1">2</td>
@@ -153,21 +154,31 @@
     <form>
         <div class="form-container">
             <p id="form-title">Form</p>
-            <br><br>
-            <table style="width: 500px;">
-            <tr>
-            <td rowspan="2">
+            <br>
+
+
+
+
+            <table style="width: 100%;" id="table2">
+
+
+            <td class="td3">
             <label for="first-name">First Name:</label>
             <input type="text" id="first-name" name="first-name" style="margin-right: 100px;">
-        
             <label for="last-name">Last Name:</label>
             <input type="text" id="last-name" name="last-name" required>
             <br>
             <br>
-            <label>Enter Email address</label>
+            <br>
+            <label>                                                            Enter Email address</label>
             <input type="text" placeholder="name@domain.com">
             </td>
-            </tr>
+
+
+
+
+            <tr>
+            <td class="td3">
             <label>Select Gender</label>
             <select>
                 <option value="" disabled selected>select option</option>
@@ -207,12 +218,13 @@
                         PHD
              </label>
             
+             <br><br>
             
                 <label>
                     select programming languages you know
                 </label>
                 <br>
-                <label><input type="checkbox" name="languages" value="HTML">
+                <label><input type="checkbox"   name="languages" value="HTML">
                     HTML
                 </label>
                 <br>
@@ -235,10 +247,13 @@
                 <label><input type="checkbox" name="languages" value="C++">
                     C++
                 </label>
+                </td>
+                </tr>
             </table>
             </div>  
         </div>
     </form>
     </div>
+    <iframe src="https://youtube.com/embed/k7ELO356Npo" width="600px" height="500px"></iframe>
 </body> 
 </html>
