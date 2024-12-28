@@ -2,10 +2,16 @@
     <head>
         <style>
             #index{color:blue;type:square;}
-            #div1{height:100px;width:100px;}
-            #div2{height:100px;width:100px;}
-            #link1{color:brown}
-            #vid1{border-left:500px;}
+#div1{height:100px;width:100px;}
+#div2{height:100px;width:100px;}
+#link1{color:brown}
+#vid1{border-left:500px;}
+#div3{background-color: aqua;border:dashed black 4px; height:500px;width:800px;}
+#div3-1{border:solid black 1px; height: 200px;width:800px;}
+#div3-1-1 {border:solid red 1px; height: 200px;width:200px;}
+#div3-1-2 {border:solid red 1px; height: 200px;width:200px; position: relative;margin-left: 600px;}
+#div3-2 {border:solid black 1px; height: 200px;width:800px;margin-top: 100px;}
+
         </style>
     </head>
     <body>
@@ -26,17 +32,36 @@
     <a href="www.google.com" id="link1">search</a>
     <br><br>
     <div>
-        <img src="wp2.jpg" style="height:200px;width:200px;"
+        <img src="wp2.jpg" style="height:200px;width:200px;">
     </div>
+    
     <br>
     <br>
     <video width="300px" height="auto" controls id="vid1">
         <source src="vid1.mp4">
-    </video>
-<br><br>
-audio
+    </video><br>
+    audio
+<br>
 <audio controls>
     <source src="music.mp3">
 </audio>
+<br>
+<br>
+<div id="div3">
+
+    <div id="div3-1">
+    <div id="div3-1-1"></div>
+    <div id="div3-1-2"></div>
+    </div>
+
+
+    <div id="div3-2">
+    <div id="div3-2-1"></div>
+    <div id="div3-2-2"></div>
+    </div>
+
+ </div>
+
+
     </body>
 </html>
