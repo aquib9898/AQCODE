@@ -6,7 +6,7 @@
 #div3{background-color: aqua;border:dashed black 4px; height:500px;width:800px;}
 #div3-1{border:solid black 1px; height: 200px;width:800px;}
 #div3-1-1 {border:solid red 1px; height: 200px;width:200px;}
-#div3-1-2 {border:solid red 1px; height: 200px;width:200px; position: relative;margin-left: 600px;}
+#div3-1-2 {border:solid red 1px; height: 200px;width:200px; position: absolute;margin-left: 600px;margin: bottom 200px; ;}
 
 
 

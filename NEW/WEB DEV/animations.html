@@ -1,0 +1,44 @@
+<html>
+    <head>
+        </head>
+        <title>
+        animations
+    </title>
+    <style>
+        @keyframes updown{from{top:0;} to{top:50px;}}
+        #heading{color:blue;text-align: center;}
+        #division1{height:1000px;width:1000px;background-color: rgb(251, 222, 9);display: flex;justify-content: space-evenly;align-items: center;}
+        #indiv1{background-color: brown;height: 200px;width: 200px;box-shadow: 4px 4px ;position:relative;animation:updown 2s linear 0s infinite alternate; z-index: 200;}
+        #indiv2{background-color: purple;height: 200px;width: 200px;box-shadow: 4px 4px ;position:relative}
+        #indiv3{background-color: orange;height: 200px;width: 200px;box-shadow: 4px 4px ;position:relative}
+        #smile{height:200px;width:200px; position:relative;opacity: 0;cursor: pointer;transition:2s linear;}
+        #label1{display:none;position:absolute;}
+        #label1:checked ~ #smile{opacity:1;}
+
+
+    </style>
+    </head>
+    <body>
+        <h1 id="heading">animations</h1>
+        <br>
+        <br>
+        <div id="division1">
+
+            <div id="indiv1">
+            </div>
+            
+            <label>
+            <div id="indiv2">
+                <input type="checkbox" name="for smiley" id="label1">
+                <img src="smile.png" id="smile">
+            </div>
+            </label>
+
+            <div id="indiv3">
+            </div>
+
+
+
+        </div>
+    </body>
+    </html>
