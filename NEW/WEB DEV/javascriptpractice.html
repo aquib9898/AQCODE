@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>
+            javascript basics
+        </title>
+    </head>
+    <style>
+        #heading1{color:red;text-align: center;}
+
+    </style>
+    <body>
+        <h1 id="heading1">THIS IS JAVASCRIPT!!</h1>
+        <p id="paragraph1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, suscipit nesciunt,<br>
+             voluptas fuga quia consectetur rerum natus neque vitae aliquid exercitationem dolore ex dignissimos minima?</p>
+             <a id="anchor1" href="ehh?"> visit youtube</a>
+<br>
+<br>
+<a id="anchor2" href="https://www.bing.com/ck/a?!&&p=8b7fe6aa1e8e8e7afb2a01e4f6a828e156c323db14f952b765651e99ffea0da1JmltdHM9MTczNjM4MDgwMA&ptn=3&ver=2&hsh=4&fclid=1d5a996d-afc4-6303-3d11-8c2caec2621c&psq=youtube&u=a1aHR0cDovL2luLnlvdXR1YmUuY29tLw&ntb=1"> visit youtube</a>
+<br><br>
+<div>
+ <p class="class1">This is paragraph 1</p>   
+ <p class="class1">This is paragraph 2</p>   
+ <p class="class1">This is paragraph 3</p>   
+ <p class="class1">This is paragraph 4</p>   
+
+</div>
+<br>
+<br>
+<p style="color:red;font-size:50px;" id="display">hello</p>
+
+
+
+
+<script>
+function changehead(){
+    let head1 = document.querySelector('#heading1');
+    head1.textContent="heading changed!";
+}
+let head1 = document.querySelector('#heading1');
+head1.addEventListener('click',changehead);
+
+let anc1=document.querySelector('#anchor1')
+anc1.addEventListener('click',function(event){
+    event.preventDefault();
+    anc1.textContent="lol click on the next link";
+})
+
+let anc2=document.querySelector('#anchor2')
+anc2.addEventListener('click',function(event){
+    anc2.textContent="visit youtube (visited)";
+})
+
+let change=document.querySelector('#display')
+
+let paragraphs=document.querySelectorAll('.class1')
+for(let i=0;i<paragraphs.length;i++){
+    assigner=paragraphs[i];
+    assigner.addEventListener('click',function(){
+        change.textContent="this is para" + (i+1);
+    })
+}
+</script>
+    </body>
+</html>
+
