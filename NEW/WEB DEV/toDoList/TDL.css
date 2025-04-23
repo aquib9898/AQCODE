@@ -1,5 +1,5 @@
 *{box-sizing: border-box;}
-#body{background: linear-gradient(135deg,rgb(126, 16, 210),rgb(216, 112, 112))}
+#body{background: linear-gradient(135deg,rgb(168, 16, 210),rgb(216, 112, 112))}
 h1{text-align:center;}
 #div2{height:auto;min-height: 580px;width: 380px;background-color:white;margin: auto; position: relative;}
 #div1{height: auto;width:400px;border-radius: 10px;margin: auto;background-color: white;box-sizing:content-box;padding: 20px;min-height: 600px;position: relative;}
