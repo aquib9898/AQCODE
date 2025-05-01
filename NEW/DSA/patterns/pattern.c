@@ -1,5 +1,6 @@
-#include<stdio.h>
+#include <stdio.h>
+
 int main(){
-    printf("the pattern is");
+    printf("hello world");
     return 0;
 }
