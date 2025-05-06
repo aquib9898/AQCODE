@@ -5,7 +5,7 @@ int main(){
     bool flag;
     cout<<"enter size of array ";
     cin>>size;
-    cout<<"enter elements in ascending order 1    ";
+    cout<<"enter elements in ascending order 01    ";
     cin>>arr[0];
     for(i=1;i<size;i++){
         cout<<"enter element in ascending order   "<<i+1<<"  ";
