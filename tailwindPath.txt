@@ -1,0 +1,33 @@
+cd AQCODE\NEW\Tailwind 
+
+
+
+
+npm install -D tailwindcss postcss autoprefixer vite
+
+
+
+
+npm i tailwindcss@3 postcss autoprefixer
+
+
+
+
+npx tailwindcss init -p
+
+
+
+
+go to tailwind config.js and replace                     content: []   with    content: ["*"]
+
+
+
+
+go to package.json and add                               "scripts": {"start":"vite"}
+
+
+
+make a new file main.css and add the following:
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

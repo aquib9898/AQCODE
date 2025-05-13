@@ -1,0 +1,23 @@
+body{background:linear-gradient(135deg,rgb(210, 44, 44),rgb(87, 87, 241))}
+#div1{margin:auto;border-radius:15px;border:2px solid black; height:60%;width:40%;position: relative;background-color: white;}
+#div1 h1{font-size: 20px;text-align: center;position: relative;}
+#div1 h1 img{height:20px;width:20px;position: relative;}
+#div2{width: 100%;background-color: rgb(227, 223, 223);display:flex;overflow:hidden;border-radius: 5px;position: relative;}
+#div2 input{flex:1;background: transparent;border:none;text-align: center;}
+
+#div2 button{border-radius: 10px;position: relative;background-color: orange;}
+#div1 ul{list-style:none;position: relative;cursor: pointer;}
+#div1 ul li::before{
+    content:'';
+    height: 14px;
+    width:14px;
+    background-image: url(../TDL/TDL-images/unchecked.jpg);
+    border-radius: 10px;
+    position: absolute;
+    left:2%;
+    background-size: cover;
+}
+#div1 ul li span{right:5px;cursor:pointer;position:absolute;}
+#div1 ul li span:hover{background-color: rgb(231, 225, 225);}
+#div1 ul li.checked{color:#555;text-decoration:line-through;}
+#div1 ul li.checked::before{background-image: url(../TDL/TDL-images/checked.jpg);}

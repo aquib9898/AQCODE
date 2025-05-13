@@ -1,0 +1,29 @@
+cd AQCODE\react\viteapp
+
+
+
+npm install -D tailwindcss postcss autoprefixer 
+
+
+
+npm i tailwindcss@3 postcss autoprefixer
+
+
+
+npx tailwindcss init -p
+
+
+
+in "tailwind.config.js" inject this   "content: ["./index.html","./src/**/*.{js,ts,jsx,tsx}"]",   in place of "content: []"
+
+
+
+go to settings.json and add this       "*.css": "tailwindcss"          in file extensions
+
+
+
+go to index.css and add these
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+

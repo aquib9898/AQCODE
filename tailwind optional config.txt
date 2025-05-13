@@ -1,0 +1,18 @@
+sometimes vscode will not show suggestions for tailwind so go into tailwind.config.js and change the content to this
+
+
+
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: { /* ... */ },
+  },
+  plugins: [],
+}
+
+
+
+
+
+or you can also simply rename tailwind.config.js to tailwind.config.cjs
