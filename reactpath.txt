@@ -1,0 +1,8 @@
+npm create vite@latest
+
+
+
+select framework and project name
+
+get inside project file then type:  
+npm install
