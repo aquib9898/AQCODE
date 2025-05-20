@@ -1,0 +1,14 @@
+when working with react apps/components and applyinf css styles to them, always remember to apply a css to the root object in which your app will be placed. example:
+
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+
+
+when working with useState for CSS properties, the state is inserted into the element's tag using :
+style={{cssAttribute:reactiveVariable:}}
+
+note: as the reactive variable is used in place of property, the dashes are converted to camelcase to mimic javascript objects 
+example: background-color   ------>    backgroundColor

@@ -14,16 +14,38 @@ npx tailwindcss init -p
 
 
 
+
+
+
+
+
+
 in "tailwind.config.js" inject this   "content: ["./index.html","./src/**/*.{js,ts,jsx,tsx}"]",   in place of "content: []"
+
+
+
+
+
+
 
 
 
 go to settings.json and add this       "*.css": "tailwindcss"          in file extensions
 
 
-
 go to index.css and add these
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+link index.css with the main file index.html like this
+    <link rel="stylesheet" href="index.css">   (can also sometimes rename index.css to main.css)
+
+
+add this script below the head tag and above the body tag:
+<script src="https://cdn.tailwindcss.com"></script>
+
+
 
